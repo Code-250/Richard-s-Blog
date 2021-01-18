@@ -1,0 +1,12 @@
+/* font family Abel */
+@font-face{
+    font-family:Abel;
+    src:url(../Abel,Josefin_Sans//Abel/Abel-Regular.ttf)
+}
+
+/* font family josephin */
+
+@font-face{
+    font-family:Josephine;
+    src:url(../Abel,Josefin_Sans//Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
