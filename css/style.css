@@ -42,31 +42,72 @@ a{
 background: WHITE;
 padding: 0 2rem;
 height:0rem;
-min-height: 40vh;
+min-height: 10vh;
 overflow: hidden; 
 }
 .nav .nav-menu{
     justify-content: space-between;
+    padding:1.6rem 0;
 }
+.nav .toggle-collapse{
+    position:absolute;
+    top:0%;
+    width: 80%;
+    cursor:pointer;
+    margin-top:40px;
+    font-size:2.4rem;
+    display:none;
+}
+.nav .toggle-collapse .toggle-icons{
+    display:flex;
+    justify-content:flex-end;
+    
+}
+
 .nav .nav-item{
     list-style-type: none;
     display:flex;
     margin: 0;
 }
 nav .nav-item .nav-link{
-    padding:1.6rem 1rem;
+    padding:0 1rem;
     font-size:1.1rem;
     position:relative;
+    font-family:var(--Abel);
+    font-size:1.5rem;
+}
+nav .nav-item .nav-link:hover{
+    background-color: var(--midnight);
+}
+nav .nav-item .nav-link:hover a{
+    color:var(--white);
 }
 .nav .nav-brand a{
-    font-size:1.6rem;
-    padding:1rem 0;
-    font-family:var(--Abel)
+    font-size:2rem;
+    height:10vh;
+    padding: 3rem 0;
+    font-family:var(--Josephine)
 }
+
 .nav .social{
-    padding:1.4rem 0;
+    padding:  1rem 0;
+    
+}
+.nav .social svg{
+    padding:0 1rem;
+}
+.nav .social svg:hover{
+    color:#487fef;
+}
+/* --------x--------------------navigation bar-------------x------- */
+
+@media only screen and (max-width:750px){
+    .nav .nav-menu, .nav .nav-item{
+        flex-direction:column;
+    }
+    .nav .toggle-collapse{
+        display:initial;
+    }
 }
 
-
-
-/* --------x--------------------navigation bar-------------x------- */
+/*    X    viewPort less than or equal to 750px    X     */
