@@ -42,8 +42,9 @@ a{
 background: WHITE;
 padding: 0 2rem;
 height:0rem;
-min-height: 10vh;
+min-height: 9vh;
 overflow: hidden; 
+transition:height 1s ease-in-out;
 }
 .nav .nav-menu{
     justify-content: space-between;
@@ -52,7 +53,7 @@ overflow: hidden;
 .nav .toggle-collapse{
     position:absolute;
     top:0%;
-    width: 80%;
+    width: 90%;
     cursor:pointer;
     margin-top:40px;
     font-size:2.4rem;
@@ -62,6 +63,9 @@ overflow: hidden;
     display:flex;
     justify-content:flex-end;
     
+}
+.collapse{
+    height:50vh;
 }
 
 .nav .nav-item{
