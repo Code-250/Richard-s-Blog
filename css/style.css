@@ -226,8 +226,11 @@ section .container .owl-nav .owl-nav-prev:hover, .owl-nav-next:hover{
 .owl-theme .owl-nav[class*='owl-']{
     outline: none;
 }
-/*          site carouser            */
-
+/*------------X------site carouser---------X----------X*/
+.site-content{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
 
 
 /* ----------x--------main site section------x------------------ */
