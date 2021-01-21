@@ -56,6 +56,13 @@ button.btn{
     cursor:pointer;
 
 }
+span{
+    font-family:var(--Abel);
+}
+
+.container{
+    margin:0 5vw;
+}
 
 /* -------------- Global classes ------------------- 
 
@@ -159,7 +166,48 @@ main .site-title .btn:hover{
     border:1px solid var(--white);
     color:var(--white);
 }
-/* -----site Title------------- */
+/* ---X--site Title-------X------ */
+/*          site carouser            */
+
+main .blog{
+    background:url('../Blooger_Assets/assets/Abract01.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height:110vh;
+    width:100%;
+}
+main .blog .blog-post{
+    padding-top:3rem;
+    display:flex;
+    flex-direction:row;
+    width:100%;
+}
+
+main .blog-post .blog-content{
+    display:flex;
+    flex-direction:column;
+    width:80%;
+    text-align:center;
+    margin:5rem 2rem;
+    box-shadow:0 15px 20px rgba(0,0,0,0.2);
+}
+
+
+main .blog-content .blog-title{
+    padding: 2rem 0;
+}
+main .blog-content .btn-blog{
+    padding:1rem 2rem;
+    background:var(--sky);
+    margin:1rem;
+}
+main .blog-content span{
+    display:block;
+}
+
+
+/*          site carouser            */
+
 
 
 /* ----------x--------main site section------x------------------ */
