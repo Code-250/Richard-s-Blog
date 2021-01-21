@@ -204,8 +204,28 @@ main .blog-content .btn-blog{
 main .blog-content span{
     display:block;
 }
+section .container .owl-nav{
+    position:absolute;
+    bottom:0%;
+    /* margin:0 2rem; */
+    width:100%;
+    display:block;
+    padding-left:35rem;
+    
+}
+section .container .owl-nav .owl-nav-prev, .owl-nav-next{
+   padding:0 .9rem;
+   background:transparent;
+   color:var(--text-gray);
+}
 
+section .container .owl-nav .owl-nav-prev:hover, .owl-nav-next:hover{
+    color:var(--midnight);
+}
 
+.owl-theme .owl-nav[class*='owl-']{
+    outline: none;
+}
 /*          site carouser            */
 
 
