@@ -277,6 +277,22 @@ section .container .owl-nav .owl-nav-prev:hover, .owl-nav-next:hover{
     border-radius:0;
     
 }
+.pagination{
+    text-align:center;
+    color:var(--text-gray);
+    margin:4rem 0;
+}
+
+.site-content .pagination a{
+    padding:.6rem .9rem;
+    border-radius:2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.site-content .pagination .pages{
+    background:var(--text-gray);
+    color:white;
+}
 /* ----------x--------main site section------x------------------ */
 
 
