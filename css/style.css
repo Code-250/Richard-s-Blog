@@ -247,6 +247,7 @@ section .container .owl-nav .owl-nav-prev:hover, .owl-nav-next:hover{
     position:absolute;
     bottom:1vw;
     left:16vw;
+    border-radius:3rem;
 }
 .site-content .post-content >.post-image > div{
     overflow: hidden;
@@ -273,6 +274,7 @@ section .container .owl-nav .owl-nav-prev:hover, .owl-nav-next:hover{
     padding:.7rem 1.5rem;
     background:var(--sky);
     display:flex;
+    border-radius:0;
     
 }
 /* ----------x--------main site section------x------------------ */
