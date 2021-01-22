@@ -238,22 +238,25 @@ section .container .owl-nav .owl-nav-prev:hover, .owl-nav-next:hover{
     grid-template-columns: 70% 30%;
 }
 .site-content .post-content > .post-image, .post-title{
-    padding:1rem 2rem;
+    padding:1rem 0;
     position:relative;
+    display:flex;
+    flex-direction:column;
+    width:80%;
 }
 .site-content .post-content  > .post-image .post-info{
     padding:1rem;
     background:var(--sky);
     position:absolute;
     bottom:1vw;
-    left:16vw;
+    left:10vw;
     border-radius:3rem;
 }
 .site-content .post-content >.post-image > div{
     overflow: hidden;
 }
 .site-content .post-content >.post-image >img{
-    width:100%;
+    width:90%;
     transition:all 1s ease;
 }
 .site-content .post-content >.post-image >.img:hover{
@@ -267,14 +270,14 @@ section .container .owl-nav .owl-nav-prev:hover, .owl-nav-next:hover{
 .site-content .post-content .post-title a{
     font-family:var(--Josephine);
     font-size:2rem;
-    justify-content:center;
-    padding-left:12rem;
+    text-align:center;
 }
 .post-content .post-title .post-btn{
     padding:.7rem 1.5rem;
     background:var(--sky);
-    display:flex;
+    margin:0 21rem;
     border-radius:0;
+    width:25%;
     
 }
 .pagination{
@@ -311,8 +314,31 @@ section .container .owl-nav .owl-nav-prev:hover, .owl-nav-next:hover{
 .site-content > .sidebar .category-list .list-items a{
     color:black;
 }
-
-
+.sidebar .post-content .post-title{
+    display:flex;
+    text-align:center;
+}
+.sidebar .post-content .post-image .sidebarimg{
+    text-align:center;
+    padding:2rem;
+    transition:all 1s ease;
+}
+.sidebar .post-content .post-image .sidebarimg:hover{
+    transform:scale(1.2)
+}
+.site-content .sidebar .popular-post h2{
+    padding-top:7rem;
+}
+.site-content .popular-post .post-info{
+    padding:1,4rem .1rem !important;
+    bottom:0rem !important;
+    left:1rem !important;
+    border-radius:0rem !important;
+    background:white !important;
+}
+.site-content .sidebar .popular-post .post-title a{
+    font-size:1.5rem;
+}
 
 /* -------X-----SideBar -----------X--------*/
 
