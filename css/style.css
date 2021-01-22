@@ -294,7 +294,27 @@ section .container .owl-nav .owl-nav-prev:hover, .owl-nav-next:hover{
     color:white;
 }
 /* ----------x--------main site section------x------------------ */
+ 
+/* ------------SideBar -------------------*/
+.site-content >.sidebar .category-list{
+    font-family:var(--Abel);
+}
+.site-content > .sidebar .category-list .list-items{
+    background:var(--sky);
+    padding:.4rem 1rem;
+    display:flex;
+    margin:.8rem 0;
+    width:70%;
+    justify-content:space-between;
+    border-radius:3rem;
+}
+.site-content > .sidebar .category-list .list-items a{
+    color:black;
+}
 
+
+
+/* -------X-----SideBar -----------X--------*/
 
 
 /*            viewport less than or equal to 750px         */
